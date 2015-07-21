@@ -1,0 +1,36 @@
+<div class="row">
+				
+	<div class="col-md-6">	
+		<div class="col-md-12">
+			<h2>My Earnings Info</h2>
+			
+			<div class="col-md-12">
+				<div class="col-md-5 text-right">
+					Tip Total:
+				</div>
+				<div class="col-md-7 text-left" ng-bind="earningsInfo.tipTotal | currency">
+					0.00
+				</div>
+
+				<div class="col-md-5 text-right">
+					Meal Count:
+				</div>
+				<div class="col-md-7 text-left" ng-bind="earningsInfo.mealCount">
+					0
+				</div>
+
+				<div class="col-md-5 text-right">
+					Average Tip Per Meal:
+				</div>
+				<div class="col-md-7 text-left" ng-bind="earningsInfo.avgTipPerMeal | currency">
+					0.00
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12 text-right">
+		<input type="button" value="Reset" ng-click="earnings.reset()">
+	</div>
+
+</div>
