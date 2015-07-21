@@ -9,7 +9,7 @@
 			controller: 'NewCtrl as newMeal'
 		})
 		.when('/my-earnings', {
-			templateUrl: 'my-earnings',
+			templateUrl: 'my-earnings.html',
 			controller: 'EarningsCtrl as earnings'
 		})
 		.when('/error', {

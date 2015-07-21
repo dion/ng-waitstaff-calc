@@ -1,0 +1,18 @@
+{
+  "name": "ng-waitstaff-calc",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dion/ng-waitstaff-calc",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angularjs": "~1.4.3"
+  }
+}
